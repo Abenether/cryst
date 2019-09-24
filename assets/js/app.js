@@ -23,13 +23,13 @@ var resetAndStart = function () {
 
 	var images = [
 
-			'http://cdn.playbuzz.com/cdn/7a5d7935-6177-4be8-8b72-2a95ad2bcdfe/3b295cc9-7b5e-412f-8b1f-8547edd8e66b.jpg', 
+			'https://www.mining.com/wp-content/uploads/2019/09/48202790487_6772d18874_k.jpg', 
 
-			'http://vignette3.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642', 
+			'http://www.lifegem.com/images/mainLG4_1380x470.jpg', 
 
-			'http://jonvilma.com/images/crystal-5.jpg', 
+			'https://i0.wp.com/www.sirfnews.com/wp-content/uploads/2019/06/blood-diamond.jpg?fit=1500%2C609&ssl=1', 
 
-			'https://static.turbosquid.com/Preview/2014/07/08__10_08_09/Crystals0010.jpgc22b2831-ae7a-4cb6-b4ac-612aa7f35ad7Original.jpg'];
+			'https://dailyfintech.com/wp-content/uploads/2018/05/conflict-diamond_ginger-snaps-org_.jpg'];
 
 		
 
@@ -47,7 +47,7 @@ var resetAndStart = function () {
 
 
 
-		var random = Math.floor(Math.random() * 11) + 1;
+		var random = Math.floor(Math.random() * 10) + 2;
 
 
 
@@ -99,7 +99,7 @@ resetAndStart();
 
 
 
-// Event Delegation
+
 
 $(document).on('click', ".crystal", function () {
 
@@ -131,7 +131,7 @@ $(document).on('click', ".crystal", function () {
 
 
 
-		$("#lost").html("You lost: " + lost);
+		$("#lost").html("oops You lost: " + lost);
 
 
 
@@ -153,7 +153,7 @@ $(document).on('click', ".crystal", function () {
 
 
 
-		$("#win").html("You win: " + win);
+		$("#win").html("yay You win: " + win);
 
 
 

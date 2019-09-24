@@ -1,18 +1,9 @@
-.crystals{
+body {
+	background-color: black;
+	color: gray;
+}.crystal{
 
-	display: flex;
-
-	justify-content: space-around;
-
-	align-items: center;
-
-}
-
-
-
-.crystal{
-
-	border:1px solid blue;
+	border:1px solid rgb(255, 255, 255);
 
 	height:200px;
 
@@ -20,19 +11,21 @@
 
 	border-radius: 4px;
 
-	box-shadow: 5px 5px 5px rgba(0, 66, 0, 0.5);
+	box-shadow: 5px 5px 5px rgba(51, 2, 2, 0.5);
 
 	transition: box-shadow 0.5s, transform 0.5s;
 
 }
 
 
-
+h1 {
+	text-align: center;
+}
 .crystal:hover{
 
-	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.733);
+	box-shadow: 15px 15px 15px rgba(88, 88, 88, 0.733);
 
-	transform: translate(5px,80px);
+	transform: translate(2px,30px);
 
 	cursor: pointer;
 
@@ -49,5 +42,15 @@
 img{
 
 	width:50px;
+
+}
+
+.crystals{
+
+	display: flex;
+
+	justify-content: space-around;
+
+	align-items: center;
 
 }
